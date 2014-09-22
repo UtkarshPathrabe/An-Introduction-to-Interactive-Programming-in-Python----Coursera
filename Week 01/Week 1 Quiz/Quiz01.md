@@ -15,10 +15,10 @@ Question 2
 
 Consider the Boolean expression not (p or not q). Give the four following values in order, separated only by spaces:
 
-the value of the expression when p is True, and q is True,
-the value of the expression when p is True, and q is False,
-the value of the expression when p is False, and q is True,
-the value of the expression when p is False, and q is False,
+The value of the expression when p is True, and q is True.  
+The value of the expression when p is True, and q is False.  
+The value of the expression when p is False, and q is True.  
+The value of the expression when p is False, and q is False.  
 Remember, each of the four results you provide should be True or False with the proper capitalization.
 
 ### Answer
@@ -32,14 +32,14 @@ Given a non-negative integer n, which of the following expressions computes the 
 
 ### Answer
 
-(n % 100 - n % 10) / 10
+(n % 100 - n % 10) / 10  
 ((n - n % 10) / 10) % 10
 
 ### Explanation
 
-1) (n % 100 - n % 10) / 10 : This expression computes the ten's digit correctly.
-2) ((n - n % 10) / 10) % 10 : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.
-3) (n - n % 10) / 10 : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.
+1) (n % 100 - n % 10) / 10 : This expression computes the ten's digit correctly.  
+2) ((n - n % 10) / 10) % 10 : This expression computes the ten's digit correctly. This is a relatively complicated expression to accomplish the goal.  
+3) (n - n % 10) / 10 : This expression does not compute the ten's digit correctly. This expression just truncates the one's digit.  
 For more details refer to the python code along with this file.
 
 Question 4
@@ -75,14 +75,14 @@ The nominal interest rate per period (rate) is how much interest you earn during
 The number of periods (periods) is how many periods in the future this calculation is for.
 Finish the following code, run it, and submit the printed number. Provide at least four digits of precision after the decimal point.
 
-def future_value(present_value, annual_rate, periods_per_year, years):
-    rate_per_period = annual_rate / periods_per_year
-    periods = periods_per_year * years
+## def future_value(present_value, annual_rate, periods_per_year, years):  
+##     rate_per_period = annual_rate / periods_per_year  
+##     periods = periods_per_year * years  
     
-    # Put your code here.
+##     # Put your code here.  
 
-print "$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .02, 365, 3)
-Before submitting your answer, test your function on the following example. future_value(500, .04, 10, 10) should return 745.317442824.
+## print "$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .02, 365, 3)  
+Before submitting your answer, test your function on the following example.   future_value(500, .04, 10, 10) should return 745.317442824.
 
 ### Answer
 
