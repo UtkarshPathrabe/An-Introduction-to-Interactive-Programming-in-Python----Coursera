@@ -57,23 +57,23 @@ If each of the following function definitions are also part of your program, whi
 
 ### Explanation
 
-1. `def c(y):  
-    &nbsp;&nbsp;&nbsp;&nbsp;return x + y`  
+1.  def c(y):  
+    &nbsp;&nbsp;&nbsp;&nbsp;return x + y  
     This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.
 
-2. `def d(y):  
+2.  def d(y):  
     &nbsp;&nbsp;&nbsp;&nbsp;y = x + y  
-    &nbsp;&nbsp;&nbsp;&nbsp;return y`  
+    &nbsp;&nbsp;&nbsp;&nbsp;return y  
     This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.  
     
-3. `def b(x,y):  
+3.  def b(x,y):  
     &nbsp;&nbsp;&nbsp;&nbsp;x = x + y  
-    &nbsp;&nbsp;&nbsp;&nbsp;return x`  
+    &nbsp;&nbsp;&nbsp;&nbsp;return x  
     This example does not need a global declaration. Here a local variable `x` is being assigned to. If you add a `global` declaration, you'll get a SyntaxError.  
     
-4. `def a(y):  
+4.  def a(y):  
     &nbsp;&nbsp;&nbsp;&nbsp;x = x + y  
-    &nbsp;&nbsp;&nbsp;&nbsp;return y`  
+    &nbsp;&nbsp;&nbsp;&nbsp;return y  
     This example does not need a global declaration. You don't need a `global` declaration unless you are assigning to the global variable.  
 
 Question 6
@@ -81,14 +81,14 @@ Question 6
 
 Consider the following code.  
 
-`count = 0  
+count = 0  
 
 def square(x):  
     &nbsp;&nbsp;&nbsp;&nbsp;global count  
     &nbsp;&nbsp;&nbsp;&nbsp;count += 1  
     &nbsp;&nbsp;&nbsp;&nbsp;return x**2  
 
-print square(square(square(square(3))))`  
+print square(square(square(square(3))))  
 What is the value of count at the end? Enter a number.  
 
 ### Answer
@@ -104,12 +104,12 @@ Question 7
 
 Consider the following code.  
 
-`a = 3  
+a = 3  
 b = 6  
 
 def f(a):  
     &nbsp;&nbsp;&nbsp;&nbsp;c = a + b  
-    &nbsp;&nbsp;&nbsp;&nbsp;return c`  
+    &nbsp;&nbsp;&nbsp;&nbsp;return c  
     
 Which names occur in the global scope?  
 
@@ -122,12 +122,12 @@ Question 8
 
 Consider the following code.  
 
-`a = 3  
+a = 3  
 b = 6  
 
 def f(a):  
     &nbsp;&nbsp;&nbsp;&nbsp;c = a + b  
-    &nbsp;&nbsp;&nbsp;&nbsp;return c`  
+    &nbsp;&nbsp;&nbsp;&nbsp;return c  
     
 Which names occur in the local scope?   
 
@@ -160,12 +160,12 @@ Which of the following are valid ways of making a canvas with a red background?
 
 ### Answer
 
-`import simplegui  
+import simplegui  
 frame = simplegui.create_frame("My Frame", 100, 100)  
 frame.set_canvas_background("Red")  
-frame.start()`  
+frame.start()  
 
-`import simplegui  
+import simplegui  
 frame = simplegui.create_frame("My Frame", 100, 100)  
 frame.set_canvas_background("red")  
-frame.start()`  
+frame.start()  

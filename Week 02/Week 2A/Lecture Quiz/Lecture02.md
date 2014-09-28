@@ -5,12 +5,12 @@ Question 1
 ----------
         
 What numbers does the following program print:  
-`x = 3  
+x = 3  
 def f():  
 &nbsp;&nbsp;&nbsp;&nbsp;x = 4  
 &nbsp;&nbsp;&nbsp;&nbsp;print x  
 f()  
-print x`  
+print x  
 
 ### Answer
 
