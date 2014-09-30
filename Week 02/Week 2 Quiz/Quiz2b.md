@@ -100,8 +100,8 @@ Which of the following function definitions are in the recommended code style?
 
 ### Answer
 
-def f(x, y):
-&nbsp;&nbsp;&nbsp;&nbsp;""" Add the two inputs. """
+def f(x, y):  
+&nbsp;&nbsp;&nbsp;&nbsp;""" Add the two inputs. """  
 &nbsp;&nbsp;&nbsp;&nbsp;return x + y  
 
 ### Explanation
