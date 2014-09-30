@@ -97,7 +97,7 @@ What is the value of count at the end? Enter a number.
 
 ### Explanation
 
-Correct. Each time `square` is called the global variable `count` is increased by 1.
+Each time `square` is called the global variable `count` is increased by 1.
 
 Question 7
 ----------
