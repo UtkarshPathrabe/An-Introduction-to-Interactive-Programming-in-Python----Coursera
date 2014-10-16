@@ -53,9 +53,9 @@ We can replace the question marks with what two statements to make both variable
 ### Answer
 
 1. y = x  
-&nbsp;&nbsp;&nbsp;&nbsp;x[2] = 10  
+x[2] = 10  
 2. y = x  
-&nbsp;&nbsp;&nbsp;&nbsp;y[-3] = 10  
+y[-3] = 10  
 
 ### Explanation
   
