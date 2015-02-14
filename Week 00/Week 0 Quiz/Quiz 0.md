@@ -15,6 +15,10 @@ Which of the following are syntactically correct strings?
 * `Hello` : This is not a string. A string must have quotation marks.  
 * `'She shouted "Hello!" very loudly.'` : This is a string. A double-quote can appear inside single-quotes.  
 * `"Hello"` : This is a string. You can use double-quotes.  
+* `"Goodbye'` : This is not a string. You can't mix-and-match single- and double-quotes.  
+* `"Hello, world."` : This is a string. You can use double-quotes.  
+* `'This course is great!'` : This is a string. You can use single-quotes.  
+* `"Hello` : This is not a string. It is missing a closing double-quote.  
 
 Question 02
 -----------  
@@ -49,6 +53,8 @@ Which of the following arithmetic expressions are syntactically correct?
 - `(7 - 2) / (3 ** 2)` : This example has correct syntax.  
 - `5 * 3 (7 - 2)` : This example has incorrect syntax. This is missing an operator between 3 and (7-2).  
 - `8 / -2` : This example has correct syntax. You can put a negative sign in front of a number like this.  
+- `9 - (2 - (4 * 3)` : This example has incorrect syntax. This is missing closing parenthesis.  
+- `5 - 1 - 3 - 7 - 0` : This example has correct syntax.  
 
 Question 05
 -----------  
@@ -78,6 +84,8 @@ Which of the following can be used as a variable name?
 * `ounces` : This is a valid variable name.  
 * `my_number` : This is a valid variable name., You can use underscores.  
 * `__number__` : This is a valid variable name. However, convention says that Python variable names starting and ending with underscores only in special circumstances.  
+* `MYnumber` : This is a valid variable name. However, convention says that Python variables shouldn't start with a capital letter.  
+* `my-number` : No, this is not a valid variable name. You cannot use a dash in a variable name. The dash is interpreted as a minus sign.  
 
 Question 08
 -----------  
