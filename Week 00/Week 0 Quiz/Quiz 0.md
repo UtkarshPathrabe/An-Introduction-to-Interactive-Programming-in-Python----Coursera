@@ -31,14 +31,14 @@ Question 03
 -----------  
 In the following code, the one line starting with # is highlighted in red. What does this line mean to Python?  
 
-`tax_rate = 0.15  
-income = 40000  
-deduction = 10000  
+`tax_rate = 0.15`  
+`income = 40000`  
+`deduction = 10000`  
 
-# Calculate income taxes  
-tax = (income - deduction) * tax_rate  
+`# Calculate income taxes`  
+`tax = (income - deduction) * tax_rate`  
 
-print tax`  
+`print tax`  
 
 ### Answer  
 This is a comment aimed at the human reader. Python ignores such comments.  
