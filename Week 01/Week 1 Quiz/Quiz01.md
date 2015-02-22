@@ -35,9 +35,9 @@ A common error for beginning programmers is to confuse the behavior of `print` s
 As an example to illustrate these points, consider the following piece of code:  
 ```  
 def do_stuff():  
-&nbsp;&nbsp;&nbsp;&nbsp;print "Hello world"  
-&nbsp;&nbsp;&nbsp;&nbsp;return "Is it over yet?"  
-&nbsp;&nbsp;&nbsp;&nbsp;print "Goodbye cruel world!"  
+  print "Hello world"  
+  return "Is it over yet?"  
+  print "Goodbye cruel world!"  
 print do_stuff()  
 ```  
 
@@ -100,9 +100,9 @@ The number of periods (periods) is how many periods in the future this calculati
 Finish the following code, run it, and submit the printed number. Provide at least four digits of precision after the decimal point.  
 ```  
 def future_value(present_value, annual_rate, periods_per_year, years):  
-&nbsp;&nbsp;&nbsp;&nbsp;rate_per_period = annual_rate / periods_per_year  
-&nbsp;&nbsp;&nbsp;&nbsp;periods = periods_per_year * years      
-&nbsp;&nbsp;&nbsp;&nbsp;# Put your code here.  
+  rate_per_period = annual_rate / periods_per_year  
+  periods = periods_per_year * years      
+  # Put your code here.  
 print "$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .02, 365, 3)  
 ```  
 Before submitting your answer, test your function on the following example. `future_value(500, .04, 10, 10)` should return 745.317442824.  
@@ -138,10 +138,10 @@ Question 9
 Running the following program results in the error SyntaxError: bad input on line 8 ('return'). Which of the following describes the problem?  
 ```  
 def max_of_2(a, b):  
-&nbsp;&nbsp;&nbsp;&nbsp;if a > b:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a  
-&nbsp;&nbsp;&nbsp;&nbsp;else:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b  
+  if a > b:  
+    return a  
+  else:  
+    return b  
 
 def max_of_3(a, b, c):  
 return max_of_2(a, max_of_2(b, c))  
@@ -163,9 +163,9 @@ The following code has a number of syntactic errors in it. The intended math cal
 Once the code has been fully corrected, it should print out two numbers. The first should be 1.09888451159. Submit the second number printed in CodeSkulptor. Provide at least four digits of precision after the decimal point.  
 ```  
 define project_to_distance(point_x point_y distance):  
-    &nbsp;&nbsp;&nbsp;&nbsp;dist_to_origin = math.square_root(pointx ** 2 + pointy ** 2)      
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scale == distance / dist_to_origin  
-    &nbsp;&nbsp;&nbsp;&nbsp;print point_x * scale, point_y * scale  
+  dist_to_origin = math.square_root(pointx ** 2 + pointy ** 2)      
+  scale == distance / dist_to_origin  
+  print point_x * scale, point_y * scale  
 project-to-distance(2, 7, 4)  
 ```  
 
