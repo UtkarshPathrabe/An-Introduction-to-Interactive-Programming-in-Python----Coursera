@@ -1,4 +1,14 @@
 # Question No 3
+def do_stuff():
+    print "Hello world"
+    return "Is it over yet?"
+    print "Goodbye cruel world!"
+    
+print do_stuff()
+
+print "--------------------------------------------------"
+
+# Question No 4
 n = 123
 print (n % 100 - n % 10) / 10
 print ((n - n % 10) / 10) % 10
@@ -6,7 +16,7 @@ print (n - n % 10) / 10
 
 print "--------------------------------------------------"
 
-# Question No 5
+# Question No 6
 import math
 
 def f(x):
@@ -20,7 +30,7 @@ print max(f(0), f(1), f(2), f(3))
 
 print "--------------------------------------------------"
 
-# Question No 6
+# Question No 7
 def future_value(present_value, annual_rate, periods_per_year, years):
     rate_per_period = annual_rate / periods_per_year
     periods = periods_per_year * years
@@ -31,7 +41,7 @@ print "$1000 at 2% compounded daily for 3 years yields $", future_value(1000, .0
 
 print "--------------------------------------------------"
 
-# Question No 7
+# Question No 8
 def area_regular_polygon(no_of_sides, length_of_each_side):
     a = math.tan(math.pi / no_of_sides)
     b = (no_of_sides) * math.pow(length_of_each_side, 2)
@@ -43,7 +53,7 @@ print area_regular_polygon(7, 3)
 
 print "--------------------------------------------------"
 
-# Question No 8
+# Question No 9
 def max_of_2(a, b):
     if a > b:
         return a
@@ -55,7 +65,7 @@ def max_of_3(a, b, c):
 
 print "--------------------------------------------------"
 
-# Question No 9
+# Question No 10
 def project_to_distance(point_x, point_y, distance):
     dist_to_origin = math.sqrt(point_x ** 2 + point_y ** 2)    
     scale = distance / dist_to_origin
