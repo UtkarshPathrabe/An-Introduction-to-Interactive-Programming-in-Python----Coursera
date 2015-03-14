@@ -8,7 +8,7 @@ What Python operator takes two strings (e.g., "sun" and "rise") and forms the co
 
 ### Answer
 
-+  
+`+`  
 
 Question 2
 ----------
@@ -110,10 +110,10 @@ Question 9
 -----------
 
 Turn the following description into a CodeSkulptor program, and run it.  
-1. Create a 300-by-300 canvas.
-2. Draw two circles with radius 20 and white lines of width 10. One is centered at (90,200) and one at (210,200).
-3. Draw a red line of width 40 from (50,180) to (250,180).
-4. Draw two red lines of width 5 from (55,170) to (90,120) and from (90,120) to (130,120).
+1. Create a 300-by-300 canvas.  
+2. Draw two circles with radius 20 and white lines of width 10. One is centered at (90,200) and one at (210,200).  
+3. Draw a red line of width 40 from (50,180) to (250,180).  
+4. Draw two red lines of width 5 from (55,170) to (90,120) and from (90,120) to (130,120).  
 5. Draw a red line of width 140 from (180,108) to (180,160).  
 
 The resulting picture is a simple diagram of what?  
