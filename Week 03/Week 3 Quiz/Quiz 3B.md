@@ -183,7 +183,7 @@ To test your code, starting at `n` = 23 generates a sequence with a maximum valu
 
 ### Answer
 
-726    
+736    
 
 ### Explanation  
 
